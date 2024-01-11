@@ -4,30 +4,29 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('hitcount', '0004_auto_20200704_0933'),
+        ("hitcount", "0003_auto_20190608_1004"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='blacklistip',
-            name='id',
+            model_name="blacklistip",
+            name="id",
             field=models.BigAutoField(primary_key=True, serialize=False),
         ),
         migrations.AlterField(
-            model_name='blacklistuseragent',
-            name='id',
+            model_name="blacklistuseragent",
+            name="id",
             field=models.BigAutoField(primary_key=True, serialize=False),
         ),
         migrations.AlterField(
-            model_name='hit',
-            name='id',
+            model_name="hit",
+            name="id",
             field=models.BigAutoField(primary_key=True, serialize=False),
         ),
         migrations.AlterField(
-            model_name='hitcount',
-            name='id',
+            model_name="hitcount",
+            name="id",
             field=models.BigAutoField(primary_key=True, serialize=False),
         ),
     ]

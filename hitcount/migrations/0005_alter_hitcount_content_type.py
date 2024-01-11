@@ -7,7 +7,7 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
     dependencies = [
         ("contenttypes", "0002_remove_content_type_name"),
-        ("hitcount", "0005_auto_20230710_1843"),
+        ("hitcount", "0004_auto_20230710_1843"),
     ]
 
     operations = [
